@@ -1,1 +1,112 @@
+/*Diseño Multimedia - Hoja de estilos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #f2f2f2;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*Cabecera / Navegación*/
+.site-header {
+    background: #262b2e;
+    border-bottom: 4px solid #29abe2;
+}
+
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #29abe2;
+}
+
+.main-nav a {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.main-nav a:first-child {
+    margin-left: 0;
+}
+
+.main-nav a.active {
+    color: #29abe2;
+}
+
+/*Boletín / Newsletter*/
+.newsletter {
+    background: #262b2e;
+    color: #ffffff;
+    padding: 34px 0;
+}
+
+.newsletter .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newsletter h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    width: 340px;
+    max-width: 60vw;
+    padding: 11px 12px;
+    border: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.newsletter button {
+    background: #e2571e;
+    color: #ffffff;
+    border: none;
+    padding: 0 22px;
+    font-size: 14px;
+    cursor: pointer;
+}
 
