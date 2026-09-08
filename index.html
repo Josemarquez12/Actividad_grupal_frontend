@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <title>Diseño Multimedia - Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
+    <!-- Cabecera -->
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">Diseño <span>Multimedia</span></a>
+            <nav class="main-nav">
+                <a href="index.html" class="active">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Boletín -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscríbete a nuestro boletín</h2>
+            <form onsubmit="return false;">
+                <input type="email" placeholder="Ingrese el Email...">
+                <button type="button">Subscríbete</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="feature">
+                    <img src="logo_html.png" alt="HTML5" class="feature-icon">
+                    <h3>HTML5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+                </div>
+                <div class="feature">
+                    <img src="logo_css.png" alt="CSS3" class="feature-icon">
+                    <h3>CSS3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+                </div>
+                <div class="feature">
+                    <img src="logo_brush.png" alt="Diseño Gráfico" class="feature-icon">
+                    <h3>Diseño Gráfico</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="site-footer">
+        <div class="container">
+            Graphel Desarrollo Web, Copyright &copy; 2017
+        </div>
+    </footer>
+
 </body>
 </html>

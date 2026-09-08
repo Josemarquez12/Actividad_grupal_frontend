@@ -1,0 +1,316 @@
+/*Diseño Multimedia - Hoja de estilos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #f2f2f2;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*Cabecera / Navegación*/
+.site-header {
+    background: #262b2e;
+    border-bottom: 4px solid #29abe2;
+}
+
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #29abe2;
+}
+
+.main-nav a {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.main-nav a:first-child {
+    margin-left: 0;
+}
+
+.main-nav a.active {
+    color: #29abe2;
+}
+
+/*Boletín / Newsletter*/
+.newsletter {
+    background: #262b2e;
+    color: #ffffff;
+    padding: 34px 0;
+}
+
+.newsletter .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newsletter h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    width: 340px;
+    max-width: 60vw;
+    padding: 11px 12px;
+    border: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.newsletter button {
+    background: #e2571e;
+    color: #ffffff;
+    border: none;
+    padding: 0 22px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*Hero (portada index)*/
+.hero {
+    background: linear-gradient(rgba(150, 150, 150, 0.2), rgba(150, 150, 150, 0.2)),
+                url('cabecera.jpg') center center / cover no-repeat;
+    text-align: center;
+    color: #ffffff;
+    padding: 115px 0;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 24px;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 1.5;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*Sección de características*/
+.features {
+    background: #f2f2f2;
+    padding: 55px 0 80px;
+}
+
+.features .row {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+}
+
+.feature .feature-icon {
+    height: 95px;
+    width: auto;
+    margin: 0 auto 18px;
+    display: block;
+}
+
+.feature h3 {
+    font-size: 19px;
+    margin-bottom: 16px;
+    color: #222;
+}
+
+.feature p {
+    color: #8c7853;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 25px;
+}
+
+/*Pie de página*/
+.site-footer {
+    background: #1b9fd8;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 0;
+    font-size: 14px;
+}
+
+/*Páginas de contenido interno*/
+.page {
+    padding: 40px 0 60px;
+}
+
+.page .layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.page .main-col {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.page .side-col {
+    flex: 0 0 320px;
+}
+
+.page-title {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 22px;
+}
+
+.text-tan {
+    color: #8c7853;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.dark-box {
+    background: #2b333b;
+    color: #ffffff;
+    padding: 20px 22px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.content-img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+}
+
+/* Caja lateral Que hacemos */
+.side-box {
+    background: #2b333b;
+    color: #ffffff;
+    padding: 22px 24px;
+}
+
+.side-box h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.side-box p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #e6e6e6;
+}
+
+.map-img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Servicios */
+.service-card {
+    background: #e6e6e6;
+    border: 1px solid #d5d5d5;
+    padding: 22px 26px;
+    margin-bottom: 22px;
+}
+
+.service-card h3 {
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #111;
+}
+
+.service-card p {
+    color: #8c7853;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.service-card .price {
+    color: #111;
+    font-size: 14px;
+}
+
+/* Formulario de contacto */
+.contact-form label {
+    display: block;
+    color: #2b4a63;
+    font-size: 14px;
+    margin: 16px 0 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #555;
+    font-family: inherit;
+    background: #ffffff;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form .btn-enviar {
+    margin-top: 22px;
+    width: 100%;
+    background: #e2571e;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
