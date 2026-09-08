@@ -110,3 +110,145 @@ img {
     cursor: pointer;
 }
 
+/*Hero (portada index)*/
+.hero {
+    background: linear-gradient(rgba(150, 150, 150, 0.2), rgba(150, 150, 150, 0.2)),
+                url('cabecera.jpg') center center / cover no-repeat;
+    text-align: center;
+    color: #ffffff;
+    padding: 115px 0;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 24px;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 1.5;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*Sección de características*/
+.features {
+    background: #f2f2f2;
+    padding: 55px 0 80px;
+}
+
+.features .row {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+}
+
+.feature .feature-icon {
+    height: 95px;
+    width: auto;
+    margin: 0 auto 18px;
+    display: block;
+}
+
+.feature h3 {
+    font-size: 19px;
+    margin-bottom: 16px;
+    color: #222;
+}
+
+.feature p {
+    color: #8c7853;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 25px;
+}
+
+/*Pie de página*/
+.site-footer {
+    background: #1b9fd8;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 0;
+    font-size: 14px;
+}
+
+/*Páginas de contenido interno*/
+.page {
+    padding: 40px 0 60px;
+}
+
+.page .layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.page .main-col {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.page .side-col {
+    flex: 0 0 320px;
+}
+
+.page-title {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 22px;
+}
+
+.text-tan {
+    color: #8c7853;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.dark-box {
+    background: #2b333b;
+    color: #ffffff;
+    padding: 20px 22px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.content-img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+}
+
+/* Caja lateral Que hacemos */
+.side-box {
+    background: #2b333b;
+    color: #ffffff;
+    padding: 22px 24px;
+}
+
+.side-box h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.side-box p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #e6e6e6;
+}
+
+.map-img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+
