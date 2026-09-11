@@ -32,7 +32,7 @@ img {
 /*Cabecera / Navegación*/
 .site-header {
     background: #262b2e;
-    border-bottom: 4px solid #29abe2;
+    border-bottom: 4px solid #1c669f;
 }
 
 .site-header .container {
@@ -49,7 +49,7 @@ img {
 }
 
 .logo span {
-    color: #29abe2;
+    color: #1c669f;
 }
 
 .main-nav a {
@@ -65,7 +65,7 @@ img {
 }
 
 .main-nav a.active {
-    color: #29abe2;
+    color: #1c669f;
 }
 
 /*Boletín / Newsletter*/
@@ -102,7 +102,7 @@ img {
 }
 
 .newsletter button {
-    background: #e2571e;
+    background: #e8491d;
     color: #ffffff;
     border: none;
     padding: 0 22px;
@@ -172,7 +172,7 @@ img {
 
 /*Pie de página*/
 .site-footer {
-    background: #1b9fd8;
+    background: #1293d4;
     color: #ffffff;
     text-align: center;
     padding: 24px 0;
@@ -213,7 +213,7 @@ img {
 }
 
 .dark-box {
-    background: #2b333b;
+    background: #35424a;
     color: #ffffff;
     padding: 20px 22px;
     font-size: 14px;
@@ -229,7 +229,7 @@ img {
 
 /* Caja lateral Que hacemos */
 .side-box {
-    background: #2b333b;
+    background: #35424a;
     color: #ffffff;
     padding: 22px 24px;
 }
@@ -304,13 +304,10 @@ img {
 .contact-form .btn-enviar {
     margin-top: 22px;
     width: 100%;
-    background: #e2571e;
+    background: #e8491d;
     color: #ffffff;
     border: none;
     padding: 14px;
     font-size: 15px;
     cursor: pointer;
 }
-
-
-
